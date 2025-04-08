@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://i.imgur.com/pqTjnLb.png" alt="osTicket logo"/>
+</p>
+
 ## Day 5 – Backup and Continuity
 
 ### Scenario:
