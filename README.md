@@ -34,25 +34,25 @@ Develop a backup strategy that includes periodic snapshots of the Domain Control
 
 Identify and implement best practices for securing backups and ensuring they are available for restoration when needed.
 
-#### 🖥️ Technology Stack
-### Azure Active Directory
+### 🖥️ Technology Stack
+#### Azure Active Directory
 
-### Azure Virtual Machines (VMs)
+#### Azure Virtual Machines (VMs)
 
-### Snapshot and Backup Tools
+#### Snapshot and Backup Tools
 
-### PowerShell (for backup scripting)
+#### PowerShell (for backup scripting)
 
-#### 🎯 Goals Accomplished
-### ✅ Created a Snapshot of the Domain Controller VM
+### 🎯 Goals Accomplished
+#### ✅ Created a Snapshot of the Domain Controller VM
 
-### ✅ Verified Backup Integrity through Test Restoration
+#### ✅ Verified Backup Integrity through Test Restoration
 
-### ✅ Developed a Backup Strategy for Active Directory
+#### ✅ Developed a Backup Strategy for Active Directory
 
-### ✅ Documented Snapshot Details for Future Reference
+#### ✅ Documented Snapshot Details for Future Reference
 
-### ✅ Planned and Prepared a Disaster Recovery Strategy
+#### ✅ Planned and Prepared a Disaster Recovery Strategy
 
 ### ✅ Conclusion – Jose’s Role in a Real-World Scenario
 This five-day Active Directory lab wasn’t just a technical checklist—it became a dynamic case study for what real IT professionals face: provisioning new infrastructure, managing users, securing sensitive data, and preparing for disaster recovery.
