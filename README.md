@@ -14,11 +14,23 @@ I created a snapshot of the Domain Controller VM, capturing the system’s curre
 
 Use Azure portal to create a snapshot of the Domain Controller VM. Ensure that the snapshot captures the current state of the system, including user data, policies, and configurations.
 
+<p align="center">
+<img src="https://i.imgur.com/1k6Cndm.png" alt="osTicket logo"/>
+</p>
+
 Verify that the snapshot is stored correctly in the Azure storage account.
+
+<p align="center">
+<img src="https://i.imgur.com/BIEWRLD.png" alt="osTicket logo"/>
+</p>
 
 #### 2. Verify Backup Integrity:
 
 Ensure the snapshot includes all necessary Active Directory components, such as the SYSVOL folder, Group Policy objects, and user data.
+
+<p align="center">
+<img src="https://i.imgur.com/tRETr37.png" alt="osTicket logo"/>
+</p>
 
 Perform a test restore operation on a non-production environment to confirm that the backup works as expected.
 
@@ -27,6 +39,10 @@ Perform a test restore operation on a non-production environment to confirm that
 Record the snapshot creation date, the state of the system, and any relevant details (e.g., VM size, resource usage at the time of snapshot).
 
 Store this information in a secure location for future reference and disaster recovery planning.
+
+<p align="center">
+<img src="https://i.imgur.com/Yb6iUfh.png" alt="osTicket logo"/>
+</p>
 
 #### 4. Create a Backup Strategy for Active Directory:
 
