@@ -50,6 +50,10 @@ Develop a backup strategy that includes periodic snapshots of the Domain Control
 
 Identify and implement best practices for securing backups and ensuring they are available for restoration when needed.
 
+<p align="center">
+<img src="https://i.imgur.com/Lymrqgw.png" alt="osTicket logo"/>
+</p>
+
 ### 🖥️ Technology Stack
 #### Azure Active Directory
 
