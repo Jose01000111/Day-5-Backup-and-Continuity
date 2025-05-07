@@ -11,48 +11,46 @@ I created a snapshot of the Domain Controller VM, capturing the system’s curre
 ### 🧪 Lab Tasks
 
 #### 1. Create a Snapshot of the Domain Controller VM:
-
-Use Azure portal to create a snapshot of the Domain Controller VM. Ensure that the snapshot captures the current state of the system, including user data, policies, and configurations.
+I used the Azure portal to create a snapshot of the Domain Controller virtual machine. I made sure the snapshot captured the current system state, including all user data, group policies, and configurations. After creating the snapshot, I double-checked that it was successfully stored in the Azure storage account, ensuring it would be available for future restoration if needed.
 
 <p align="center">
 <img src="https://i.imgur.com/1k6Cndm.png" alt="osTicket logo"/>
 </p>
 
-Verify that the snapshot is stored correctly in the Azure storage account.
+***
 
 <p align="center">
 <img src="https://i.imgur.com/BIEWRLD.png" alt="osTicket logo"/>
 </p>
 
-#### 2. Verify Backup Integrity:
+***
 
-Ensure the snapshot includes all necessary Active Directory components, such as the SYSVOL folder, Group Policy objects, and user data.
+#### 2. Verify Backup Integrity:
+Next, I verified that the snapshot included all critical Active Directory components like the SYSVOL folder, Group Policy objects, and user data. To ensure the backup's reliability, I conducted a test restore operation in a non-production environment, confirming the snapshot worked as expected and all necessary services and data were intact.
 
 <p align="center">
 <img src="https://i.imgur.com/tRETr37.png" alt="osTicket logo"/>
 </p>
 
-Perform a test restore operation on a non-production environment to confirm that the backup works as expected.
+***
 
 #### 3. Document Snapshot Information:
-
-Record the snapshot creation date, the state of the system, and any relevant details (e.g., VM size, resource usage at the time of snapshot).
-
-Store this information in a secure location for future reference and disaster recovery planning.
+I recorded the snapshot’s creation date, the system’s state at the time, and technical details such as the VM size and current resource usage. I stored this documentation securely so it can be quickly accessed during disaster recovery scenarios or future audits.
 
 <p align="center">
 <img src="https://i.imgur.com/Yb6iUfh.png" alt="osTicket logo"/>
 </p>
 
+***
+
 #### 4. Create a Backup Strategy for Active Directory:
-
-Develop a backup strategy that includes periodic snapshots of the Domain Controller VM, ensuring minimal data loss and quick recovery in case of failure.
-
-Identify and implement best practices for securing backups and ensuring they are available for restoration when needed.
+To strengthen our AD backup approach, I developed a strategy that includes taking regular snapshots of the Domain Controller VM. This plan is designed to reduce the risk of data loss and support fast recovery in the event of a failure. I also researched and applied best practices for securing our backups and making sure they’re always available when restoration is required.
 
 <p align="center">
 <img src="https://i.imgur.com/Lymrqgw.png" alt="osTicket logo"/>
 </p>
+
+***
 
 ### 🖥️ Technology Stack
 #### Azure Active Directory
